@@ -1,0 +1,23 @@
+# Owlsh custom: stefanolivier.com
+background = #181a18
+foreground = #e8e8e8
+selection-background = #e8e8e8
+selection-foreground = #0f140f
+cursor-color = #7a9f7f
+cursor-text = #0f140f
+palette = 0=#0f140f
+palette = 1=#ef4444
+palette = 2=#7a9f7f
+palette = 3=#eab308
+palette = 4=#7a9f7f
+palette = 5=#a78bfa
+palette = 6=#22c55e
+palette = 7=#8a918a
+palette = 8=#4b5563
+palette = 9=#f87171
+palette = 10=#7a9f7f
+palette = 11=#f0c840
+palette = 12=#7a9f7f
+palette = 13=#e879a0
+palette = 14=#22c55e
+palette = 15=#e8e8e8

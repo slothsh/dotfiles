@@ -10,6 +10,6 @@ font-size = 16.0
 quick-terminal-position = top
 quick-terminal-animation-duration = 0.15
 shell-integration = detect
-theme = dark:Kanagawa Wave,light:catppuccin-latte
+theme = dark:ayu_dark,light:ayu_light
 keybind = shift+enter=text:\n
 keybind = cmd+enter=unbind

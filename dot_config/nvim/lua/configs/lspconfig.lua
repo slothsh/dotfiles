@@ -1,6 +1,8 @@
 require("nvchad.configs.lspconfig").defaults()
 require('configs.lsp.rust-analyzer')
+require('configs.lsp.pest')
 
+vim.lsp.config.neocmakelsp = require('configs.lsp.neocmakelsp')
 vim.lsp.config.svelte = require('configs.lsp.svelte')
 vim.lsp.config.clangd = require('configs.lsp.clangd')
 vim.lsp.config.phpactor = require('configs.lsp.phpactor')
@@ -22,4 +24,5 @@ vim.lsp.enable({
     "bash-language-server",
     "nushell",
     "svelte",
+    "pest_ls",
 })

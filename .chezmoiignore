@@ -1,0 +1,6 @@
+*.bak
+history.txt
+.todos/
+.pi/**/*/sessions/
+.pi/**/*/auth.json
+*.bak

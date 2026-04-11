@@ -116,6 +116,39 @@ local plugins = {
         version = '^6',
         lazy = false,
     },
+    {
+        'pest-parser/pest.vim',
+        event = "VeryLazy",
+        ft = "pest",
+        init = function()
+        end,
+    },
+    {
+        "f-person/auto-dark-mode.nvim",
+        event = "VeryLazy",
+        config = function()
+            local config = require("nvconfig")
+            require("auto-dark-mode").setup({
+                update_interval = 1000,
+                set_dark_mode = function()
+                    if config.base46.theme ~= "ayu" then
+                        config.base46.theme = "ayu_dark"
+                        require("base46").load_all_highlights()
+                        print("Switched to dark theme")
+                    end
+                end,
+                set_light_mode = function()
+                    if config.base46.theme ~= "ayu" then
+                        config.base46.theme = "ayu_light"
+                        require("base46").load_all_highlights()
+                        print("Switched to light theme")
+                    end
+                end,
+            })
+
+            require("auto-dark-mode").init()
+        end,
+    },
 }
 
 return plugins

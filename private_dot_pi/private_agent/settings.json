@@ -1,0 +1,18 @@
+{
+  "lastChangelogVersion": "0.66.1",
+  "defaultProvider": "openrouter",
+  "defaultModel": "google/gemma-4-31b-it",
+  "hideThinkingBlock": false,
+  "defaultThinkingLevel": "minimal",
+  "enabledModels": [
+    "openrouter/google/gemini-3.1-flash-lite-preview",
+    "openrouter/minimax/minimax-m2.5:free",
+    "github-copilot/claude-opus-4.6",
+    "openrouter/google/gemma-4-31b-it"
+  ],
+  "packages": [],
+  "skills": [
+    "-skills/linearis/SKILL.md",
+    "+skills/td-task-management/SKILL.md"
+  ]
+}
